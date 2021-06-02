@@ -10,5 +10,8 @@ function sayHello(name) {
         return "Hello, Obi!";
     }
     return "Hello, World!";
-
 }
+function sayHello(input){
+    return "Hello, " + input + "!";
+}
+
