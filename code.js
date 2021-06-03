@@ -2,16 +2,22 @@
 const helloWorld = function () {
     return "Hello, World!";
 }
-function sayHello(name) {
+
+function sayHello(name){
     if (name === "Kenneth") {
         return "Hello, Kenneth!"
     } else if (name === "Obi")
     {
         return "Hello, Obi!";
     }
-    return "Hello, World!";
-}
-function sayHello(input){
-    return "Hello, " + input + "!";
+    if (name === undefined || name === true || name === false)
+
+        if (typeof name === "string") {
+
+            if(typeof name === "string" && isNaN(name)) {
+                return "Hello, " + name + "!"
+            }
+        }
+        return "Hello, World!";
 }
 
